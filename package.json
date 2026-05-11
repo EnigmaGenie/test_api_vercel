@@ -2,9 +2,10 @@
   "name": "api_test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "nodemon api/index.js",
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
     "test": "node test_api.js"
   },
   "keywords": [],
