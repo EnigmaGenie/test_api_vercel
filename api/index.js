@@ -21,5 +21,8 @@ app.post("/ajout", async (req,res) => {
     res.json({ "message": "Data ajouter en db avec success "})
 })
 
-//demarage du serveur
-app.listen(3000,console.log("Le Serveur Ecoute sur Le Port 3000"))
+//demarage du serveur en devellopement
+//app.listen(3000,console.log("Le Serveur Ecoute sur Le Port 3000"))
+
+// Pour La Production
+module.exports = app
