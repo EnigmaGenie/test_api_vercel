@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "name": "Claude-Code",
+      "Langage": "TYPESCRIPT"
+    },
+    {
+      "name": "GENIE",
+      "Langage": "NODEJS"
+    },
+    {
+      "name": "Enigma",
+      "Langage": "NODEJS"
+    },
+    {
+      "name": "BISOUNOURS",
+      "Langage": "PHP"
+    },
+    {
+      "name": "OPENAI",
+      "Langage": "CHATGPT"
+    }
+  ]
+}

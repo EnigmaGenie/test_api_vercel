@@ -1,0 +1,4 @@
+#Dependances
+node_modules/
+#fichier Pour test l'api
+test_api.js
