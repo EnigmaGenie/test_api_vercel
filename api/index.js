@@ -1,10 +1,14 @@
 const express = require("express")
-const fs = require("fs/promises")
+//const fs = require("fs/promises")
 const app = express()
 
 app.use(express.json())//middleware Pour Parser les requetes json
 
 //GET
+app.get("/hello",(req,res) => {
+    res.json({ "hello": "Bonjour Le Monde" })
+})
+/*
 app.get("/",async (req,res) => {
     const raw = await fs.readFile("db.json","utf-8")
     const json = JSON.parse(raw)
@@ -20,6 +24,7 @@ app.post("/ajout", async (req,res) => {
     await fs.writeFile("db.json",JSON.stringify(db,null, 2))
     res.json({ "message": "Data ajouter en db avec success "})
 })
+*/
 
 //demarage du serveur en devellopement
 //app.listen(3000,console.log("Le Serveur Ecoute sur Le Port 3000"))
